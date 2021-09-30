@@ -34,7 +34,7 @@ inspector_logger.addHandler(stream_handler)
 class Player():
 
     def __init__(self):
-
+        print("Grégory's amazing inspector AI")
         self.end = False
         # self.old_question = ""
         self.socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
@@ -45,13 +45,23 @@ class Player():
 
     def reset(self):
         self.socket.close()
-
+    
+    def getCarlottaPosition(self, gameState):
+        position_carlotta = gameState["position_carlotta"]
+        return position_carlotta
+    
+    def getActiveCharacterCards(self, gameState):
+        character_cards = gameState["active character_cards"]
+        return character_cards
+    
     def answer(self, question):
         # work
         data = question["data"]
         game_state = question["game state"]
+        print(question)
+        # print(self.getActiveCharacterCards(game_state))
+
         response_index = random.randint(0, len(data)-1)
-        print(response_index)
         # log
         inspector_logger.debug("|\n|")
         inspector_logger.debug("inspector answers")
