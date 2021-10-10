@@ -1,267 +1,267 @@
-13:15:19 :: INFO :: no client yet
-13:15:20 :: INFO :: Received client !
-13:15:22 :: INFO :: Received client !
-13:15:22 :: INFO :: received all clients
-13:15:22 :: INFO :: the fantom is blue
-13:15:22 :: INFO :: 
+20:14:11 :: INFO :: no client yet
+20:14:13 :: INFO :: Received client !
+20:14:14 :: INFO :: Received client !
+20:14:14 :: INFO :: received all clients
+20:14:14 :: INFO :: the fantom is red
+20:14:14 :: INFO :: 
 =======
 new game
 =======
-13:15:22 :: INFO :: shuffle 8 character_cards
-13:15:22 :: INFO :: shuffle 10 alibi cards
-13:15:22 :: INFO :: 
+20:14:14 :: INFO :: shuffle 8 character_cards
+20:14:14 :: INFO :: shuffle 10 alibi cards
+20:14:14 :: INFO :: 
 ------------------
-13:15:22 :: INFO :: 
-black-8-suspectTour: 1,
+20:14:14 :: INFO :: 
+white-1-suspectTour: 1,
 Position Carlotta / exit: 6/22,
-Shadow: 2,
-blocked: (7, 9)
-pink-9-suspectTour: 1,
+Shadow: 7,
+blocked: (8, 9)
+black-4-suspectTour: 1,
 Position Carlotta / exit: 6/22,
-Shadow: 2,
-blocked: (7, 9)
-red-3-suspectTour: 1,
+Shadow: 7,
+blocked: (8, 9)
+blue-9-suspectTour: 1,
 Position Carlotta / exit: 6/22,
-Shadow: 2,
-blocked: (7, 9)
-blue-7-suspectTour: 1,
+Shadow: 7,
+blocked: (8, 9)
+purple-4-suspectTour: 1,
 Position Carlotta / exit: 6/22,
-Shadow: 2,
-blocked: (7, 9)
-white-9-suspectTour: 1,
+Shadow: 7,
+blocked: (8, 9)
+grey-7-suspectTour: 1,
 Position Carlotta / exit: 6/22,
-Shadow: 2,
-blocked: (7, 9)
-brown-3-suspectTour: 1,
+Shadow: 7,
+blocked: (8, 9)
+brown-4-suspectTour: 1,
 Position Carlotta / exit: 6/22,
-Shadow: 2,
-blocked: (7, 9)
-grey-2-suspectTour: 1,
+Shadow: 7,
+blocked: (8, 9)
+pink-2-suspectTour: 1,
 Position Carlotta / exit: 6/22,
-Shadow: 2,
-blocked: (7, 9)
-purple-1-suspect
-13:15:22 :: DEBUG :: {
+Shadow: 7,
+blocked: (8, 9)
+red-7-suspect
+20:14:14 :: DEBUG :: {
     "position_carlotta": 6,
     "exit": 22,
     "num_tour": 1,
-    "shadow": 2,
+    "shadow": 7,
     "blocked": [
-        7,
+        8,
         9
     ],
     "characters": [
         {
+            "color": "white",
+            "suspect": true,
+            "position": 1,
+            "power": false
+        },
+        {
             "color": "black",
             "suspect": true,
-            "position": 8,
-            "power": false
-        },
-        {
-            "color": "pink",
-            "suspect": true,
-            "position": 9,
-            "power": false
-        },
-        {
-            "color": "red",
-            "suspect": true,
-            "position": 3,
+            "position": 4,
             "power": false
         },
         {
             "color": "blue",
             "suspect": true,
-            "position": 7,
-            "power": false
-        },
-        {
-            "color": "white",
-            "suspect": true,
             "position": 9,
-            "power": false
-        },
-        {
-            "color": "brown",
-            "suspect": true,
-            "position": 3,
-            "power": false
-        },
-        {
-            "color": "grey",
-            "suspect": true,
-            "position": 2,
             "power": false
         },
         {
             "color": "purple",
             "suspect": true,
-            "position": 1,
+            "position": 4,
+            "power": false
+        },
+        {
+            "color": "grey",
+            "suspect": true,
+            "position": 7,
+            "power": false
+        },
+        {
+            "color": "brown",
+            "suspect": true,
+            "position": 4,
+            "power": false
+        },
+        {
+            "color": "pink",
+            "suspect": true,
+            "position": 2,
+            "power": false
+        },
+        {
+            "color": "red",
+            "suspect": true,
+            "position": 7,
             "power": false
         }
     ],
     "character_cards": [
         {
-            "color": "blue",
-            "suspect": true,
-            "position": 7,
-            "power": false
-        },
-        {
-            "color": "brown",
-            "suspect": true,
-            "position": 3,
-            "power": false
-        },
-        {
-            "color": "purple",
+            "color": "white",
             "suspect": true,
             "position": 1,
             "power": false
         },
         {
-            "color": "white",
-            "suspect": true,
-            "position": 9,
-            "power": false
-        },
-        {
             "color": "pink",
             "suspect": true,
+            "position": 2,
+            "power": false
+        },
+        {
+            "color": "blue",
+            "suspect": true,
             "position": 9,
-            "power": false
-        },
-        {
-            "color": "black",
-            "suspect": true,
-            "position": 8,
-            "power": false
-        },
-        {
-            "color": "red",
-            "suspect": true,
-            "position": 3,
             "power": false
         },
         {
             "color": "grey",
             "suspect": true,
-            "position": 2,
+            "position": 7,
+            "power": false
+        },
+        {
+            "color": "black",
+            "suspect": true,
+            "position": 4,
+            "power": false
+        },
+        {
+            "color": "brown",
+            "suspect": true,
+            "position": 4,
+            "power": false
+        },
+        {
+            "color": "red",
+            "suspect": true,
+            "position": 7,
+            "power": false
+        },
+        {
+            "color": "purple",
+            "suspect": true,
+            "position": 4,
             "power": false
         }
     ],
     "active character_cards": []
 }
-13:15:22 :: INFO :: -
+20:14:14 :: INFO :: -
 shuffle 8 character_cards
 -
-13:15:22 :: INFO :: --
+20:14:14 :: INFO :: --
 inspector plays
 --
-13:15:22 :: DEBUG :: {
+20:14:14 :: DEBUG :: {
     "position_carlotta": 6,
     "exit": 22,
     "num_tour": 1,
-    "shadow": 2,
+    "shadow": 7,
     "blocked": [
-        7,
+        8,
         9
     ],
     "characters": [
         {
+            "color": "white",
+            "suspect": true,
+            "position": 1,
+            "power": false
+        },
+        {
             "color": "black",
             "suspect": true,
-            "position": 8,
-            "power": false
-        },
-        {
-            "color": "pink",
-            "suspect": true,
-            "position": 9,
-            "power": false
-        },
-        {
-            "color": "red",
-            "suspect": true,
-            "position": 3,
+            "position": 4,
             "power": false
         },
         {
             "color": "blue",
             "suspect": true,
-            "position": 7,
+            "position": 9,
             "power": false
         },
         {
-            "color": "white",
+            "color": "purple",
             "suspect": true,
-            "position": 9,
+            "position": 4,
+            "power": false
+        },
+        {
+            "color": "grey",
+            "suspect": true,
+            "position": 7,
             "power": false
         },
         {
             "color": "brown",
             "suspect": true,
-            "position": 3,
+            "position": 4,
             "power": false
         },
         {
-            "color": "grey",
+            "color": "pink",
             "suspect": true,
             "position": 2,
             "power": false
         },
         {
-            "color": "purple",
+            "color": "red",
             "suspect": true,
-            "position": 1,
+            "position": 7,
             "power": false
         }
     ],
     "character_cards": [
         {
-            "color": "white",
-            "suspect": true,
-            "position": 9,
-            "power": false
-        },
-        {
-            "color": "pink",
-            "suspect": true,
-            "position": 9,
-            "power": false
-        },
-        {
             "color": "blue",
             "suspect": true,
-            "position": 7,
-            "power": false
-        },
-        {
-            "color": "purple",
-            "suspect": true,
-            "position": 1,
-            "power": false
-        },
-        {
-            "color": "red",
-            "suspect": true,
-            "position": 3,
-            "power": false
-        },
-        {
-            "color": "brown",
-            "suspect": true,
-            "position": 3,
+            "position": 9,
             "power": false
         },
         {
             "color": "black",
             "suspect": true,
-            "position": 8,
+            "position": 4,
+            "power": false
+        },
+        {
+            "color": "brown",
+            "suspect": true,
+            "position": 4,
+            "power": false
+        },
+        {
+            "color": "red",
+            "suspect": true,
+            "position": 7,
+            "power": false
+        },
+        {
+            "color": "white",
+            "suspect": true,
+            "position": 1,
+            "power": false
+        },
+        {
+            "color": "purple",
+            "suspect": true,
+            "position": 4,
             "power": false
         },
         {
             "color": "grey",
+            "suspect": true,
+            "position": 7,
+            "power": false
+        },
+        {
+            "color": "pink",
             "suspect": true,
             "position": 2,
             "power": false
@@ -269,145 +269,148 @@ inspector plays
     ],
     "active character_cards": [
         {
-            "color": "white",
-            "suspect": true,
-            "position": 9,
-            "power": false
-        },
-        {
-            "color": "pink",
-            "suspect": true,
-            "position": 9,
-            "power": false
-        },
-        {
             "color": "blue",
             "suspect": true,
-            "position": 7,
+            "position": 9,
             "power": false
         },
         {
-            "color": "purple",
+            "color": "black",
             "suspect": true,
-            "position": 1,
+            "position": 4,
+            "power": false
+        },
+        {
+            "color": "brown",
+            "suspect": true,
+            "position": 4,
+            "power": false
+        },
+        {
+            "color": "red",
+            "suspect": true,
+            "position": 7,
             "power": false
         }
     ]
 }
-13:15:22 :: INFO :: question : select character
-13:15:22 :: INFO :: answer : white-9-suspect
-13:15:22 :: INFO :: question : select position
-13:15:22 :: INFO :: answer : 8
-13:15:22 :: INFO :: new position : 8
-13:15:22 :: INFO :: question : activate white power
-13:15:22 :: INFO :: answer  : no
-13:15:22 :: INFO :: --
+20:14:14 :: INFO :: question : select character
+20:14:14 :: INFO :: answer : brown-4-suspect
+20:14:14 :: INFO :: question : activate brown power
+20:14:14 :: INFO :: answer  : yes
+20:14:14 :: INFO :: brown power activated
+20:14:14 :: INFO :: question : brown character power
+20:14:14 :: INFO :: answer : black-4-suspect
+20:14:14 :: INFO :: question : select position
+20:14:14 :: INFO :: answer : 5
+20:14:14 :: INFO :: new position : 5
+20:14:14 :: INFO :: --
 fantom plays
 --
-13:15:22 :: DEBUG :: {
+20:14:14 :: DEBUG :: {
     "position_carlotta": 6,
     "exit": 22,
     "num_tour": 1,
-    "shadow": 2,
+    "shadow": 7,
     "blocked": [
-        7,
+        8,
         9
     ],
     "characters": [
         {
+            "color": "white",
+            "suspect": true,
+            "position": 1,
+            "power": false
+        },
+        {
             "color": "black",
             "suspect": true,
-            "position": 8,
-            "power": false
-        },
-        {
-            "color": "pink",
-            "suspect": true,
-            "position": 9,
-            "power": false
-        },
-        {
-            "color": "red",
-            "suspect": true,
-            "position": 3,
+            "position": 5,
             "power": false
         },
         {
             "color": "blue",
             "suspect": true,
-            "position": 7,
+            "position": 9,
             "power": false
         },
         {
-            "color": "white",
+            "color": "purple",
             "suspect": true,
-            "position": 8,
+            "position": 4,
+            "power": false
+        },
+        {
+            "color": "grey",
+            "suspect": true,
+            "position": 7,
             "power": false
         },
         {
             "color": "brown",
             "suspect": true,
-            "position": 3,
-            "power": false
+            "position": 5,
+            "power": true
         },
         {
-            "color": "grey",
+            "color": "pink",
             "suspect": true,
             "position": 2,
             "power": false
         },
         {
-            "color": "purple",
+            "color": "red",
             "suspect": true,
-            "position": 1,
+            "position": 7,
             "power": false
         }
     ],
     "character_cards": [
         {
-            "color": "white",
-            "suspect": true,
-            "position": 8,
-            "power": false
-        },
-        {
-            "color": "pink",
+            "color": "blue",
             "suspect": true,
             "position": 9,
             "power": false
         },
         {
-            "color": "blue",
+            "color": "black",
             "suspect": true,
-            "position": 7,
-            "power": false
-        },
-        {
-            "color": "purple",
-            "suspect": true,
-            "position": 1,
-            "power": false
-        },
-        {
-            "color": "red",
-            "suspect": true,
-            "position": 3,
+            "position": 5,
             "power": false
         },
         {
             "color": "brown",
             "suspect": true,
-            "position": 3,
+            "position": 5,
+            "power": true
+        },
+        {
+            "color": "red",
+            "suspect": true,
+            "position": 7,
             "power": false
         },
         {
-            "color": "black",
+            "color": "white",
             "suspect": true,
-            "position": 8,
+            "position": 1,
+            "power": false
+        },
+        {
+            "color": "purple",
+            "suspect": true,
+            "position": 4,
             "power": false
         },
         {
             "color": "grey",
+            "suspect": true,
+            "position": 7,
+            "power": false
+        },
+        {
+            "color": "pink",
             "suspect": true,
             "position": 2,
             "power": false
@@ -415,140 +418,140 @@ fantom plays
     ],
     "active character_cards": [
         {
-            "color": "pink",
+            "color": "blue",
             "suspect": true,
             "position": 9,
             "power": false
         },
         {
-            "color": "blue",
+            "color": "black",
             "suspect": true,
-            "position": 7,
+            "position": 5,
             "power": false
         },
         {
-            "color": "purple",
+            "color": "red",
             "suspect": true,
-            "position": 1,
+            "position": 7,
             "power": false
         }
     ]
 }
-13:15:22 :: INFO :: question : select character
-13:15:22 :: INFO :: answer : blue-7-suspect
-13:15:22 :: INFO :: question : select position
-13:15:22 :: INFO :: answer : 6
-13:15:22 :: INFO :: new position : 6
-13:15:22 :: INFO :: blue power activated
-13:15:22 :: INFO :: question : blue character power exit
-13:15:22 :: INFO :: answer : {8, 4}
-13:15:22 :: INFO :: --
+20:14:14 :: INFO :: question : select character
+20:14:14 :: INFO :: answer : blue-9-suspect
+20:14:14 :: INFO :: question : select position
+20:14:14 :: INFO :: answer : 7
+20:14:14 :: INFO :: new position : 7
+20:14:14 :: INFO :: blue power activated
+20:14:14 :: INFO :: question : blue character power exit
+20:14:14 :: INFO :: answer : {0, 1}
+20:14:14 :: INFO :: --
 fantom plays
 --
-13:15:22 :: DEBUG :: {
+20:14:14 :: DEBUG :: {
     "position_carlotta": 6,
     "exit": 22,
     "num_tour": 1,
-    "shadow": 2,
+    "shadow": 7,
     "blocked": [
-        4,
-        8
+        0,
+        1
     ],
     "characters": [
         {
+            "color": "white",
+            "suspect": true,
+            "position": 1,
+            "power": false
+        },
+        {
             "color": "black",
             "suspect": true,
-            "position": 8,
-            "power": false
-        },
-        {
-            "color": "pink",
-            "suspect": true,
-            "position": 9,
-            "power": false
-        },
-        {
-            "color": "red",
-            "suspect": true,
-            "position": 3,
+            "position": 5,
             "power": false
         },
         {
             "color": "blue",
             "suspect": true,
-            "position": 6,
+            "position": 7,
             "power": true
         },
         {
-            "color": "white",
+            "color": "purple",
             "suspect": true,
-            "position": 8,
+            "position": 4,
+            "power": false
+        },
+        {
+            "color": "grey",
+            "suspect": true,
+            "position": 7,
             "power": false
         },
         {
             "color": "brown",
             "suspect": true,
-            "position": 3,
-            "power": false
+            "position": 5,
+            "power": true
         },
         {
-            "color": "grey",
+            "color": "pink",
             "suspect": true,
             "position": 2,
             "power": false
         },
         {
-            "color": "purple",
+            "color": "red",
             "suspect": true,
-            "position": 1,
+            "position": 7,
             "power": false
         }
     ],
     "character_cards": [
         {
-            "color": "white",
-            "suspect": true,
-            "position": 8,
-            "power": false
-        },
-        {
-            "color": "pink",
-            "suspect": true,
-            "position": 9,
-            "power": false
-        },
-        {
             "color": "blue",
             "suspect": true,
-            "position": 6,
+            "position": 7,
             "power": true
         },
         {
-            "color": "purple",
+            "color": "black",
             "suspect": true,
-            "position": 1,
-            "power": false
-        },
-        {
-            "color": "red",
-            "suspect": true,
-            "position": 3,
+            "position": 5,
             "power": false
         },
         {
             "color": "brown",
             "suspect": true,
-            "position": 3,
+            "position": 5,
+            "power": true
+        },
+        {
+            "color": "red",
+            "suspect": true,
+            "position": 7,
             "power": false
         },
         {
-            "color": "black",
+            "color": "white",
             "suspect": true,
-            "position": 8,
+            "position": 1,
+            "power": false
+        },
+        {
+            "color": "purple",
+            "suspect": true,
+            "position": 4,
             "power": false
         },
         {
             "color": "grey",
+            "suspect": true,
+            "position": 7,
+            "power": false
+        },
+        {
+            "color": "pink",
             "suspect": true,
             "position": 2,
             "power": false
@@ -556,131 +559,133 @@ fantom plays
     ],
     "active character_cards": [
         {
-            "color": "pink",
+            "color": "black",
             "suspect": true,
-            "position": 9,
+            "position": 5,
             "power": false
         },
         {
-            "color": "purple",
+            "color": "red",
             "suspect": true,
-            "position": 1,
+            "position": 7,
             "power": false
         }
     ]
 }
-13:15:22 :: INFO :: question : select character
-13:15:22 :: INFO :: answer : pink-9-suspect
-13:15:22 :: INFO :: question : select position
-13:15:22 :: INFO :: answer : 7
-13:15:22 :: INFO :: new position : 7
-13:15:22 :: INFO :: --
+20:14:14 :: INFO :: question : select character
+20:14:14 :: INFO :: answer : black-5-suspect
+20:14:14 :: INFO :: question : select position
+20:14:14 :: INFO :: answer : 0
+20:14:14 :: INFO :: new position : 0
+20:14:14 :: INFO :: question : activate black power
+20:14:14 :: INFO :: answer  : no
+20:14:14 :: INFO :: --
 inspector plays
 --
-13:15:22 :: DEBUG :: {
+20:14:14 :: DEBUG :: {
     "position_carlotta": 6,
     "exit": 22,
     "num_tour": 1,
-    "shadow": 2,
+    "shadow": 7,
     "blocked": [
-        4,
-        8
+        0,
+        1
     ],
     "characters": [
         {
+            "color": "white",
+            "suspect": true,
+            "position": 1,
+            "power": false
+        },
+        {
             "color": "black",
             "suspect": true,
-            "position": 8,
-            "power": false
-        },
-        {
-            "color": "pink",
-            "suspect": true,
-            "position": 7,
-            "power": false
-        },
-        {
-            "color": "red",
-            "suspect": true,
-            "position": 3,
+            "position": 0,
             "power": false
         },
         {
             "color": "blue",
             "suspect": true,
-            "position": 6,
+            "position": 7,
             "power": true
         },
         {
-            "color": "white",
+            "color": "purple",
             "suspect": true,
-            "position": 8,
+            "position": 4,
+            "power": false
+        },
+        {
+            "color": "grey",
+            "suspect": true,
+            "position": 7,
             "power": false
         },
         {
             "color": "brown",
             "suspect": true,
-            "position": 3,
-            "power": false
+            "position": 5,
+            "power": true
         },
         {
-            "color": "grey",
+            "color": "pink",
             "suspect": true,
             "position": 2,
             "power": false
         },
         {
-            "color": "purple",
+            "color": "red",
             "suspect": true,
-            "position": 1,
+            "position": 7,
             "power": false
         }
     ],
     "character_cards": [
         {
-            "color": "white",
-            "suspect": true,
-            "position": 8,
-            "power": false
-        },
-        {
-            "color": "pink",
-            "suspect": true,
-            "position": 7,
-            "power": false
-        },
-        {
             "color": "blue",
             "suspect": true,
-            "position": 6,
+            "position": 7,
             "power": true
         },
         {
-            "color": "purple",
+            "color": "black",
             "suspect": true,
-            "position": 1,
-            "power": false
-        },
-        {
-            "color": "red",
-            "suspect": true,
-            "position": 3,
+            "position": 0,
             "power": false
         },
         {
             "color": "brown",
             "suspect": true,
-            "position": 3,
+            "position": 5,
+            "power": true
+        },
+        {
+            "color": "red",
+            "suspect": true,
+            "position": 7,
             "power": false
         },
         {
-            "color": "black",
+            "color": "white",
             "suspect": true,
-            "position": 8,
+            "position": 1,
+            "power": false
+        },
+        {
+            "color": "purple",
+            "suspect": true,
+            "position": 4,
             "power": false
         },
         {
             "color": "grey",
+            "suspect": true,
+            "position": 7,
+            "power": false
+        },
+        {
+            "color": "pink",
             "suspect": true,
             "position": 2,
             "power": false
@@ -688,2121 +693,1409 @@ inspector plays
     ],
     "active character_cards": [
         {
-            "color": "purple",
+            "color": "red",
             "suspect": true,
-            "position": 1,
+            "position": 7,
             "power": false
         }
     ]
 }
-13:15:22 :: INFO :: question : select character
-13:15:22 :: INFO :: answer : purple-1-suspect
-13:15:22 :: INFO :: question : activate purple power
-13:15:22 :: INFO :: answer  : no
-13:15:22 :: INFO :: question : select position
-13:15:22 :: INFO :: answer : 0
-13:15:22 :: INFO :: new position : 0
-13:15:22 :: INFO :: The fantom screams.
-13:15:22 :: INFO :: 
+20:14:14 :: INFO :: question : select character
+20:14:14 :: INFO :: answer : red-7-suspect
+20:14:14 :: INFO :: question : select position
+20:14:14 :: INFO :: answer : 4
+20:14:14 :: INFO :: new position : 4
+20:14:14 :: INFO :: red power activated
+20:14:14 :: INFO :: fantom was drawn
+20:14:14 :: INFO :: the fantom does not scream.
+20:14:14 :: INFO :: 
 ------------------
-13:15:22 :: INFO :: 
-black-8-cleanTour: 2,
-Position Carlotta / exit: 11/22,
-Shadow: 2,
-blocked: (4, 8)
-pink-7-suspectTour: 2,
-Position Carlotta / exit: 11/22,
-Shadow: 2,
-blocked: (4, 8)
-red-3-cleanTour: 2,
-Position Carlotta / exit: 11/22,
-Shadow: 2,
-blocked: (4, 8)
-blue-6-suspectTour: 2,
-Position Carlotta / exit: 11/22,
-Shadow: 2,
-blocked: (4, 8)
-white-8-cleanTour: 2,
-Position Carlotta / exit: 11/22,
-Shadow: 2,
-blocked: (4, 8)
-brown-3-cleanTour: 2,
-Position Carlotta / exit: 11/22,
-Shadow: 2,
-blocked: (4, 8)
-grey-2-suspectTour: 2,
-Position Carlotta / exit: 11/22,
-Shadow: 2,
-blocked: (4, 8)
-purple-0-suspect
-13:15:22 :: DEBUG :: {
-    "position_carlotta": 11,
+20:14:14 :: INFO :: 
+white-1-cleanTour: 2,
+Position Carlotta / exit: 7/22,
+Shadow: 7,
+blocked: (0, 1)
+black-0-cleanTour: 2,
+Position Carlotta / exit: 7/22,
+Shadow: 7,
+blocked: (0, 1)
+blue-7-cleanTour: 2,
+Position Carlotta / exit: 7/22,
+Shadow: 7,
+blocked: (0, 1)
+purple-4-suspectTour: 2,
+Position Carlotta / exit: 7/22,
+Shadow: 7,
+blocked: (0, 1)
+grey-7-cleanTour: 2,
+Position Carlotta / exit: 7/22,
+Shadow: 7,
+blocked: (0, 1)
+brown-5-cleanTour: 2,
+Position Carlotta / exit: 7/22,
+Shadow: 7,
+blocked: (0, 1)
+pink-2-cleanTour: 2,
+Position Carlotta / exit: 7/22,
+Shadow: 7,
+blocked: (0, 1)
+red-4-suspect
+20:14:14 :: DEBUG :: {
+    "position_carlotta": 7,
     "exit": 22,
     "num_tour": 2,
-    "shadow": 2,
+    "shadow": 7,
     "blocked": [
-        4,
-        8
+        0,
+        1
     ],
     "characters": [
         {
+            "color": "white",
+            "suspect": false,
+            "position": 1,
+            "power": false
+        },
+        {
             "color": "black",
             "suspect": false,
-            "position": 8,
-            "power": false
-        },
-        {
-            "color": "pink",
-            "suspect": true,
-            "position": 7,
-            "power": false
-        },
-        {
-            "color": "red",
-            "suspect": false,
-            "position": 3,
+            "position": 0,
             "power": false
         },
         {
             "color": "blue",
-            "suspect": true,
-            "position": 6,
+            "suspect": false,
+            "position": 7,
             "power": true
         },
         {
-            "color": "white",
+            "color": "purple",
+            "suspect": true,
+            "position": 4,
+            "power": false
+        },
+        {
+            "color": "grey",
             "suspect": false,
-            "position": 8,
+            "position": 7,
             "power": false
         },
         {
             "color": "brown",
             "suspect": false,
-            "position": 3,
-            "power": false
+            "position": 5,
+            "power": true
         },
         {
-            "color": "grey",
-            "suspect": true,
+            "color": "pink",
+            "suspect": false,
             "position": 2,
             "power": false
         },
         {
-            "color": "purple",
+            "color": "red",
             "suspect": true,
-            "position": 0,
-            "power": false
+            "position": 4,
+            "power": true
         }
     ],
     "character_cards": [
         {
-            "color": "white",
-            "suspect": false,
-            "position": 8,
-            "power": false
-        },
-        {
-            "color": "pink",
-            "suspect": true,
-            "position": 7,
-            "power": false
-        },
-        {
             "color": "blue",
-            "suspect": true,
-            "position": 6,
+            "suspect": false,
+            "position": 7,
             "power": true
         },
         {
-            "color": "purple",
-            "suspect": true,
-            "position": 0,
-            "power": false
-        },
-        {
-            "color": "red",
+            "color": "black",
             "suspect": false,
-            "position": 3,
+            "position": 0,
             "power": false
         },
         {
             "color": "brown",
             "suspect": false,
-            "position": 3,
+            "position": 5,
+            "power": true
+        },
+        {
+            "color": "red",
+            "suspect": true,
+            "position": 4,
+            "power": true
+        },
+        {
+            "color": "white",
+            "suspect": false,
+            "position": 1,
             "power": false
         },
         {
-            "color": "black",
-            "suspect": false,
-            "position": 8,
+            "color": "purple",
+            "suspect": true,
+            "position": 4,
             "power": false
         },
         {
             "color": "grey",
-            "suspect": true,
+            "suspect": false,
+            "position": 7,
+            "power": false
+        },
+        {
+            "color": "pink",
+            "suspect": false,
             "position": 2,
             "power": false
         }
     ],
     "active character_cards": []
 }
-13:15:22 :: INFO :: --
+20:14:14 :: INFO :: --
 fantom plays
 --
-13:15:22 :: DEBUG :: {
-    "position_carlotta": 11,
+20:14:14 :: DEBUG :: {
+    "position_carlotta": 7,
     "exit": 22,
     "num_tour": 2,
-    "shadow": 2,
+    "shadow": 7,
     "blocked": [
-        4,
-        8
+        0,
+        1
     ],
     "characters": [
         {
+            "color": "white",
+            "suspect": false,
+            "position": 1,
+            "power": false
+        },
+        {
             "color": "black",
             "suspect": false,
-            "position": 8,
-            "power": false
-        },
-        {
-            "color": "pink",
-            "suspect": true,
-            "position": 7,
-            "power": false
-        },
-        {
-            "color": "red",
-            "suspect": false,
-            "position": 3,
+            "position": 0,
             "power": false
         },
         {
             "color": "blue",
-            "suspect": true,
-            "position": 6,
+            "suspect": false,
+            "position": 7,
             "power": true
         },
         {
-            "color": "white",
+            "color": "purple",
+            "suspect": true,
+            "position": 4,
+            "power": false
+        },
+        {
+            "color": "grey",
             "suspect": false,
-            "position": 8,
+            "position": 7,
             "power": false
         },
         {
             "color": "brown",
             "suspect": false,
-            "position": 3,
-            "power": false
+            "position": 5,
+            "power": true
         },
         {
-            "color": "grey",
-            "suspect": true,
+            "color": "pink",
+            "suspect": false,
             "position": 2,
             "power": false
         },
         {
-            "color": "purple",
+            "color": "red",
             "suspect": true,
-            "position": 0,
-            "power": false
+            "position": 4,
+            "power": true
         }
     ],
     "character_cards": [
         {
-            "color": "white",
+            "color": "blue",
             "suspect": false,
-            "position": 8,
-            "power": false
-        },
-        {
-            "color": "pink",
-            "suspect": true,
             "position": 7,
-            "power": false
-        },
-        {
-            "color": "blue",
-            "suspect": true,
-            "position": 6,
             "power": true
         },
         {
-            "color": "purple",
-            "suspect": true,
+            "color": "black",
+            "suspect": false,
             "position": 0,
             "power": false
         },
         {
-            "color": "red",
-            "suspect": false,
-            "position": 3,
-            "power": false
-        },
-        {
             "color": "brown",
             "suspect": false,
-            "position": 3,
-            "power": false
-        },
-        {
-            "color": "black",
-            "suspect": false,
-            "position": 8,
-            "power": false
-        },
-        {
-            "color": "grey",
-            "suspect": true,
-            "position": 2,
-            "power": false
-        }
-    ],
-    "active character_cards": [
-        {
-            "color": "red",
-            "suspect": false,
-            "position": 3,
-            "power": false
-        },
-        {
-            "color": "brown",
-            "suspect": false,
-            "position": 3,
-            "power": false
-        },
-        {
-            "color": "black",
-            "suspect": false,
-            "position": 8,
-            "power": false
-        },
-        {
-            "color": "grey",
-            "suspect": true,
-            "position": 2,
-            "power": false
-        }
-    ]
-}
-13:15:22 :: INFO :: question : select character
-13:15:22 :: INFO :: answer : brown-3-clean
-13:15:22 :: INFO :: question : activate brown power
-13:15:22 :: INFO :: answer  : yes
-13:15:22 :: INFO :: brown power activated
-13:15:22 :: INFO :: question : brown character power
-13:15:22 :: INFO :: answer : red-3-clean
-13:15:22 :: INFO :: question : select position
-13:15:22 :: INFO :: answer : 6
-13:15:22 :: INFO :: new position : 6
-13:15:22 :: INFO :: --
-inspector plays
---
-13:15:22 :: DEBUG :: {
-    "position_carlotta": 11,
-    "exit": 22,
-    "num_tour": 2,
-    "shadow": 2,
-    "blocked": [
-        4,
-        8
-    ],
-    "characters": [
-        {
-            "color": "black",
-            "suspect": false,
-            "position": 8,
-            "power": false
-        },
-        {
-            "color": "pink",
-            "suspect": true,
-            "position": 7,
-            "power": false
+            "position": 5,
+            "power": true
         },
         {
             "color": "red",
-            "suspect": false,
-            "position": 6,
-            "power": false
-        },
-        {
-            "color": "blue",
             "suspect": true,
-            "position": 6,
-            "power": true
-        },
-        {
-            "color": "white",
-            "suspect": false,
-            "position": 8,
-            "power": false
-        },
-        {
-            "color": "brown",
-            "suspect": false,
-            "position": 6,
-            "power": true
-        },
-        {
-            "color": "grey",
-            "suspect": true,
-            "position": 2,
-            "power": false
-        },
-        {
-            "color": "purple",
-            "suspect": true,
-            "position": 0,
-            "power": false
-        }
-    ],
-    "character_cards": [
-        {
-            "color": "white",
-            "suspect": false,
-            "position": 8,
-            "power": false
-        },
-        {
-            "color": "pink",
-            "suspect": true,
-            "position": 7,
-            "power": false
-        },
-        {
-            "color": "blue",
-            "suspect": true,
-            "position": 6,
-            "power": true
-        },
-        {
-            "color": "purple",
-            "suspect": true,
-            "position": 0,
-            "power": false
-        },
-        {
-            "color": "red",
-            "suspect": false,
-            "position": 6,
-            "power": false
-        },
-        {
-            "color": "brown",
-            "suspect": false,
-            "position": 6,
-            "power": true
-        },
-        {
-            "color": "black",
-            "suspect": false,
-            "position": 8,
-            "power": false
-        },
-        {
-            "color": "grey",
-            "suspect": true,
-            "position": 2,
-            "power": false
-        }
-    ],
-    "active character_cards": [
-        {
-            "color": "red",
-            "suspect": false,
-            "position": 6,
-            "power": false
-        },
-        {
-            "color": "black",
-            "suspect": false,
-            "position": 8,
-            "power": false
-        },
-        {
-            "color": "grey",
-            "suspect": true,
-            "position": 2,
-            "power": false
-        }
-    ]
-}
-13:15:22 :: INFO :: question : select character
-13:15:22 :: INFO :: answer : black-8-clean
-13:15:22 :: INFO :: question : select position
-13:15:22 :: INFO :: answer : 9
-13:15:22 :: INFO :: new position : 9
-13:15:22 :: INFO :: question : activate black power
-13:15:22 :: INFO :: answer  : yes
-13:15:22 :: INFO :: black power activated
-13:15:22 :: INFO :: new position : pink-9-suspect
-13:15:22 :: INFO :: new position : white-9-clean
-13:15:22 :: INFO :: --
-inspector plays
---
-13:15:22 :: DEBUG :: {
-    "position_carlotta": 11,
-    "exit": 22,
-    "num_tour": 2,
-    "shadow": 2,
-    "blocked": [
-        4,
-        8
-    ],
-    "characters": [
-        {
-            "color": "black",
-            "suspect": false,
-            "position": 9,
-            "power": true
-        },
-        {
-            "color": "pink",
-            "suspect": true,
-            "position": 9,
-            "power": false
-        },
-        {
-            "color": "red",
-            "suspect": false,
-            "position": 6,
-            "power": false
-        },
-        {
-            "color": "blue",
-            "suspect": true,
-            "position": 6,
-            "power": true
-        },
-        {
-            "color": "white",
-            "suspect": false,
-            "position": 9,
-            "power": false
-        },
-        {
-            "color": "brown",
-            "suspect": false,
-            "position": 6,
-            "power": true
-        },
-        {
-            "color": "grey",
-            "suspect": true,
-            "position": 2,
-            "power": false
-        },
-        {
-            "color": "purple",
-            "suspect": true,
-            "position": 0,
-            "power": false
-        }
-    ],
-    "character_cards": [
-        {
-            "color": "white",
-            "suspect": false,
-            "position": 9,
-            "power": false
-        },
-        {
-            "color": "pink",
-            "suspect": true,
-            "position": 9,
-            "power": false
-        },
-        {
-            "color": "blue",
-            "suspect": true,
-            "position": 6,
-            "power": true
-        },
-        {
-            "color": "purple",
-            "suspect": true,
-            "position": 0,
-            "power": false
-        },
-        {
-            "color": "red",
-            "suspect": false,
-            "position": 6,
-            "power": false
-        },
-        {
-            "color": "brown",
-            "suspect": false,
-            "position": 6,
-            "power": true
-        },
-        {
-            "color": "black",
-            "suspect": false,
-            "position": 9,
-            "power": true
-        },
-        {
-            "color": "grey",
-            "suspect": true,
-            "position": 2,
-            "power": false
-        }
-    ],
-    "active character_cards": [
-        {
-            "color": "red",
-            "suspect": false,
-            "position": 6,
-            "power": false
-        },
-        {
-            "color": "grey",
-            "suspect": true,
-            "position": 2,
-            "power": false
-        }
-    ]
-}
-13:15:22 :: INFO :: question : select character
-13:15:22 :: INFO :: answer : red-6-clean
-13:15:22 :: INFO :: question : select position
-13:15:22 :: INFO :: answer : 4
-13:15:22 :: INFO :: new position : 4
-13:15:22 :: INFO :: red power activated
-13:15:22 :: INFO :: purple-0-suspect was drawn
-13:15:22 :: INFO :: --
-fantom plays
---
-13:15:22 :: DEBUG :: {
-    "position_carlotta": 11,
-    "exit": 22,
-    "num_tour": 2,
-    "shadow": 2,
-    "blocked": [
-        4,
-        8
-    ],
-    "characters": [
-        {
-            "color": "black",
-            "suspect": false,
-            "position": 9,
-            "power": true
-        },
-        {
-            "color": "pink",
-            "suspect": true,
-            "position": 9,
-            "power": false
-        },
-        {
-            "color": "red",
-            "suspect": false,
             "position": 4,
             "power": true
         },
         {
-            "color": "blue",
-            "suspect": true,
-            "position": 6,
-            "power": true
-        },
-        {
             "color": "white",
             "suspect": false,
-            "position": 9,
-            "power": false
-        },
-        {
-            "color": "brown",
-            "suspect": false,
-            "position": 6,
-            "power": true
-        },
-        {
-            "color": "grey",
-            "suspect": true,
-            "position": 2,
+            "position": 1,
             "power": false
         },
         {
             "color": "purple",
-            "suspect": false,
-            "position": 0,
+            "suspect": true,
+            "position": 4,
             "power": false
-        }
-    ],
-    "character_cards": [
+        },
         {
-            "color": "white",
+            "color": "grey",
             "suspect": false,
-            "position": 9,
+            "position": 7,
             "power": false
         },
         {
             "color": "pink",
-            "suspect": true,
-            "position": 9,
-            "power": false
-        },
-        {
-            "color": "blue",
-            "suspect": true,
-            "position": 6,
-            "power": true
-        },
-        {
-            "color": "purple",
             "suspect": false,
-            "position": 0,
-            "power": false
-        },
-        {
-            "color": "red",
-            "suspect": false,
-            "position": 4,
-            "power": true
-        },
-        {
-            "color": "brown",
-            "suspect": false,
-            "position": 6,
-            "power": true
-        },
-        {
-            "color": "black",
-            "suspect": false,
-            "position": 9,
-            "power": true
-        },
-        {
-            "color": "grey",
-            "suspect": true,
             "position": 2,
             "power": false
         }
     ],
     "active character_cards": [
         {
-            "color": "grey",
+            "color": "white",
+            "suspect": false,
+            "position": 1,
+            "power": false
+        },
+        {
+            "color": "purple",
             "suspect": true,
+            "position": 4,
+            "power": false
+        },
+        {
+            "color": "grey",
+            "suspect": false,
+            "position": 7,
+            "power": false
+        },
+        {
+            "color": "pink",
+            "suspect": false,
             "position": 2,
             "power": false
         }
     ]
 }
-13:15:22 :: INFO :: question : select character
-13:15:22 :: INFO :: answer : grey-2-suspect
-13:15:22 :: INFO :: question : select position
-13:15:22 :: INFO :: answer : 3
-13:15:22 :: INFO :: new position : 3
-13:15:22 :: INFO :: grey power activated
-13:15:22 :: INFO :: question : grey character power
-13:15:22 :: INFO :: answer : 8
-13:15:22 :: INFO :: the fantom does not scream.
-13:15:22 :: INFO :: 
+20:14:14 :: INFO :: question : select character
+20:14:14 :: INFO :: answer : white-1-clean
+20:14:14 :: INFO :: question : select position
+20:14:14 :: INFO :: answer : 2
+20:14:14 :: INFO :: new position : 2
+20:14:14 :: INFO :: question : activate white power
+20:14:14 :: INFO :: answer  : no
+20:14:14 :: INFO :: --
+inspector plays
+--
+20:14:14 :: DEBUG :: {
+    "position_carlotta": 7,
+    "exit": 22,
+    "num_tour": 2,
+    "shadow": 7,
+    "blocked": [
+        0,
+        1
+    ],
+    "characters": [
+        {
+            "color": "white",
+            "suspect": false,
+            "position": 2,
+            "power": false
+        },
+        {
+            "color": "black",
+            "suspect": false,
+            "position": 0,
+            "power": false
+        },
+        {
+            "color": "blue",
+            "suspect": false,
+            "position": 7,
+            "power": true
+        },
+        {
+            "color": "purple",
+            "suspect": true,
+            "position": 4,
+            "power": false
+        },
+        {
+            "color": "grey",
+            "suspect": false,
+            "position": 7,
+            "power": false
+        },
+        {
+            "color": "brown",
+            "suspect": false,
+            "position": 5,
+            "power": true
+        },
+        {
+            "color": "pink",
+            "suspect": false,
+            "position": 2,
+            "power": false
+        },
+        {
+            "color": "red",
+            "suspect": true,
+            "position": 4,
+            "power": true
+        }
+    ],
+    "character_cards": [
+        {
+            "color": "blue",
+            "suspect": false,
+            "position": 7,
+            "power": true
+        },
+        {
+            "color": "black",
+            "suspect": false,
+            "position": 0,
+            "power": false
+        },
+        {
+            "color": "brown",
+            "suspect": false,
+            "position": 5,
+            "power": true
+        },
+        {
+            "color": "red",
+            "suspect": true,
+            "position": 4,
+            "power": true
+        },
+        {
+            "color": "white",
+            "suspect": false,
+            "position": 2,
+            "power": false
+        },
+        {
+            "color": "purple",
+            "suspect": true,
+            "position": 4,
+            "power": false
+        },
+        {
+            "color": "grey",
+            "suspect": false,
+            "position": 7,
+            "power": false
+        },
+        {
+            "color": "pink",
+            "suspect": false,
+            "position": 2,
+            "power": false
+        }
+    ],
+    "active character_cards": [
+        {
+            "color": "purple",
+            "suspect": true,
+            "position": 4,
+            "power": false
+        },
+        {
+            "color": "grey",
+            "suspect": false,
+            "position": 7,
+            "power": false
+        },
+        {
+            "color": "pink",
+            "suspect": false,
+            "position": 2,
+            "power": false
+        }
+    ]
+}
+20:14:14 :: INFO :: question : select character
+20:14:14 :: INFO :: answer : grey-7-clean
+20:14:14 :: INFO :: question : select position
+20:14:14 :: INFO :: answer : 9
+20:14:14 :: INFO :: new position : 9
+20:14:14 :: INFO :: grey power activated
+20:14:14 :: INFO :: question : grey character power
+20:14:14 :: INFO :: answer : 3
+20:14:14 :: INFO :: --
+inspector plays
+--
+20:14:14 :: DEBUG :: {
+    "position_carlotta": 7,
+    "exit": 22,
+    "num_tour": 2,
+    "shadow": 3,
+    "blocked": [
+        0,
+        1
+    ],
+    "characters": [
+        {
+            "color": "white",
+            "suspect": false,
+            "position": 2,
+            "power": false
+        },
+        {
+            "color": "black",
+            "suspect": false,
+            "position": 0,
+            "power": false
+        },
+        {
+            "color": "blue",
+            "suspect": false,
+            "position": 7,
+            "power": true
+        },
+        {
+            "color": "purple",
+            "suspect": true,
+            "position": 4,
+            "power": false
+        },
+        {
+            "color": "grey",
+            "suspect": false,
+            "position": 9,
+            "power": true
+        },
+        {
+            "color": "brown",
+            "suspect": false,
+            "position": 5,
+            "power": true
+        },
+        {
+            "color": "pink",
+            "suspect": false,
+            "position": 2,
+            "power": false
+        },
+        {
+            "color": "red",
+            "suspect": true,
+            "position": 4,
+            "power": true
+        }
+    ],
+    "character_cards": [
+        {
+            "color": "blue",
+            "suspect": false,
+            "position": 7,
+            "power": true
+        },
+        {
+            "color": "black",
+            "suspect": false,
+            "position": 0,
+            "power": false
+        },
+        {
+            "color": "brown",
+            "suspect": false,
+            "position": 5,
+            "power": true
+        },
+        {
+            "color": "red",
+            "suspect": true,
+            "position": 4,
+            "power": true
+        },
+        {
+            "color": "white",
+            "suspect": false,
+            "position": 2,
+            "power": false
+        },
+        {
+            "color": "purple",
+            "suspect": true,
+            "position": 4,
+            "power": false
+        },
+        {
+            "color": "grey",
+            "suspect": false,
+            "position": 9,
+            "power": true
+        },
+        {
+            "color": "pink",
+            "suspect": false,
+            "position": 2,
+            "power": false
+        }
+    ],
+    "active character_cards": [
+        {
+            "color": "purple",
+            "suspect": true,
+            "position": 4,
+            "power": false
+        },
+        {
+            "color": "pink",
+            "suspect": false,
+            "position": 2,
+            "power": false
+        }
+    ]
+}
+20:14:14 :: INFO :: question : select character
+20:14:14 :: INFO :: answer : purple-4-suspect
+20:14:14 :: INFO :: question : activate purple power
+20:14:14 :: INFO :: answer  : no
+20:14:14 :: INFO :: question : select position
+20:14:14 :: INFO :: answer : 8
+20:14:14 :: INFO :: new position : 8
+20:14:14 :: INFO :: --
+fantom plays
+--
+20:14:14 :: DEBUG :: {
+    "position_carlotta": 7,
+    "exit": 22,
+    "num_tour": 2,
+    "shadow": 3,
+    "blocked": [
+        0,
+        1
+    ],
+    "characters": [
+        {
+            "color": "white",
+            "suspect": false,
+            "position": 2,
+            "power": false
+        },
+        {
+            "color": "black",
+            "suspect": false,
+            "position": 0,
+            "power": false
+        },
+        {
+            "color": "blue",
+            "suspect": false,
+            "position": 7,
+            "power": true
+        },
+        {
+            "color": "purple",
+            "suspect": true,
+            "position": 8,
+            "power": false
+        },
+        {
+            "color": "grey",
+            "suspect": false,
+            "position": 9,
+            "power": true
+        },
+        {
+            "color": "brown",
+            "suspect": false,
+            "position": 5,
+            "power": true
+        },
+        {
+            "color": "pink",
+            "suspect": false,
+            "position": 2,
+            "power": false
+        },
+        {
+            "color": "red",
+            "suspect": true,
+            "position": 4,
+            "power": true
+        }
+    ],
+    "character_cards": [
+        {
+            "color": "blue",
+            "suspect": false,
+            "position": 7,
+            "power": true
+        },
+        {
+            "color": "black",
+            "suspect": false,
+            "position": 0,
+            "power": false
+        },
+        {
+            "color": "brown",
+            "suspect": false,
+            "position": 5,
+            "power": true
+        },
+        {
+            "color": "red",
+            "suspect": true,
+            "position": 4,
+            "power": true
+        },
+        {
+            "color": "white",
+            "suspect": false,
+            "position": 2,
+            "power": false
+        },
+        {
+            "color": "purple",
+            "suspect": true,
+            "position": 8,
+            "power": false
+        },
+        {
+            "color": "grey",
+            "suspect": false,
+            "position": 9,
+            "power": true
+        },
+        {
+            "color": "pink",
+            "suspect": false,
+            "position": 2,
+            "power": false
+        }
+    ],
+    "active character_cards": [
+        {
+            "color": "pink",
+            "suspect": false,
+            "position": 2,
+            "power": false
+        }
+    ]
+}
+20:14:14 :: INFO :: question : select character
+20:14:14 :: INFO :: answer : pink-2-clean
+20:14:14 :: INFO :: question : select position
+20:14:14 :: INFO :: answer : 1
+20:14:14 :: INFO :: new position : 1
+20:14:14 :: INFO :: The fantom screams.
+20:14:14 :: INFO :: 
 ------------------
-13:15:22 :: INFO :: 
-black-9-cleanTour: 3,
-Position Carlotta / exit: 13/22,
-Shadow: 8,
-blocked: (4, 8)
-pink-9-suspectTour: 3,
-Position Carlotta / exit: 13/22,
-Shadow: 8,
-blocked: (4, 8)
-red-4-cleanTour: 3,
-Position Carlotta / exit: 13/22,
-Shadow: 8,
-blocked: (4, 8)
-blue-6-suspectTour: 3,
-Position Carlotta / exit: 13/22,
-Shadow: 8,
-blocked: (4, 8)
-white-9-cleanTour: 3,
-Position Carlotta / exit: 13/22,
-Shadow: 8,
-blocked: (4, 8)
-brown-6-cleanTour: 3,
-Position Carlotta / exit: 13/22,
-Shadow: 8,
-blocked: (4, 8)
-grey-3-cleanTour: 3,
-Position Carlotta / exit: 13/22,
-Shadow: 8,
-blocked: (4, 8)
-purple-0-clean
-13:15:22 :: DEBUG :: {
-    "position_carlotta": 13,
+20:14:14 :: INFO :: 
+white-2-cleanTour: 3,
+Position Carlotta / exit: 10/22,
+Shadow: 3,
+blocked: (0, 1)
+black-0-cleanTour: 3,
+Position Carlotta / exit: 10/22,
+Shadow: 3,
+blocked: (0, 1)
+blue-7-cleanTour: 3,
+Position Carlotta / exit: 10/22,
+Shadow: 3,
+blocked: (0, 1)
+purple-8-suspectTour: 3,
+Position Carlotta / exit: 10/22,
+Shadow: 3,
+blocked: (0, 1)
+grey-9-cleanTour: 3,
+Position Carlotta / exit: 10/22,
+Shadow: 3,
+blocked: (0, 1)
+brown-5-cleanTour: 3,
+Position Carlotta / exit: 10/22,
+Shadow: 3,
+blocked: (0, 1)
+pink-1-cleanTour: 3,
+Position Carlotta / exit: 10/22,
+Shadow: 3,
+blocked: (0, 1)
+red-4-suspect
+20:14:14 :: DEBUG :: {
+    "position_carlotta": 10,
     "exit": 22,
     "num_tour": 3,
-    "shadow": 8,
+    "shadow": 3,
     "blocked": [
-        4,
-        8
+        0,
+        1
     ],
     "characters": [
         {
-            "color": "black",
+            "color": "white",
             "suspect": false,
-            "position": 9,
-            "power": true
-        },
-        {
-            "color": "pink",
-            "suspect": true,
-            "position": 9,
+            "position": 2,
             "power": false
         },
         {
-            "color": "red",
+            "color": "black",
             "suspect": false,
-            "position": 4,
-            "power": true
+            "position": 0,
+            "power": false
         },
         {
             "color": "blue",
-            "suspect": true,
-            "position": 6,
-            "power": true
-        },
-        {
-            "color": "white",
             "suspect": false,
-            "position": 9,
-            "power": false
-        },
-        {
-            "color": "brown",
-            "suspect": false,
-            "position": 6,
-            "power": true
-        },
-        {
-            "color": "grey",
-            "suspect": false,
-            "position": 3,
+            "position": 7,
             "power": true
         },
         {
             "color": "purple",
-            "suspect": false,
-            "position": 0,
+            "suspect": true,
+            "position": 8,
             "power": false
+        },
+        {
+            "color": "grey",
+            "suspect": false,
+            "position": 9,
+            "power": true
+        },
+        {
+            "color": "brown",
+            "suspect": false,
+            "position": 5,
+            "power": true
+        },
+        {
+            "color": "pink",
+            "suspect": false,
+            "position": 1,
+            "power": false
+        },
+        {
+            "color": "red",
+            "suspect": true,
+            "position": 4,
+            "power": true
         }
     ],
     "character_cards": [
         {
-            "color": "white",
-            "suspect": false,
-            "position": 9,
-            "power": false
-        },
-        {
-            "color": "pink",
-            "suspect": true,
-            "position": 9,
-            "power": false
-        },
-        {
             "color": "blue",
-            "suspect": true,
-            "position": 6,
-            "power": true
-        },
-        {
-            "color": "purple",
             "suspect": false,
-            "position": 0,
-            "power": false
-        },
-        {
-            "color": "red",
-            "suspect": false,
-            "position": 4,
-            "power": true
-        },
-        {
-            "color": "brown",
-            "suspect": false,
-            "position": 6,
+            "position": 7,
             "power": true
         },
         {
             "color": "black",
             "suspect": false,
-            "position": 9,
+            "position": 0,
+            "power": false
+        },
+        {
+            "color": "brown",
+            "suspect": false,
+            "position": 5,
             "power": true
+        },
+        {
+            "color": "red",
+            "suspect": true,
+            "position": 4,
+            "power": true
+        },
+        {
+            "color": "white",
+            "suspect": false,
+            "position": 2,
+            "power": false
+        },
+        {
+            "color": "purple",
+            "suspect": true,
+            "position": 8,
+            "power": false
         },
         {
             "color": "grey",
             "suspect": false,
-            "position": 3,
+            "position": 9,
             "power": true
+        },
+        {
+            "color": "pink",
+            "suspect": false,
+            "position": 1,
+            "power": false
         }
     ],
     "active character_cards": []
 }
-13:15:22 :: INFO :: -
+20:14:14 :: INFO :: -
 shuffle 8 character_cards
 -
-13:15:22 :: INFO :: --
+20:14:14 :: INFO :: --
 inspector plays
 --
-13:15:22 :: DEBUG :: {
-    "position_carlotta": 13,
+20:14:14 :: DEBUG :: {
+    "position_carlotta": 10,
     "exit": 22,
     "num_tour": 3,
-    "shadow": 8,
-    "blocked": [
-        4,
-        8
-    ],
-    "characters": [
-        {
-            "color": "black",
-            "suspect": false,
-            "position": 9,
-            "power": false
-        },
-        {
-            "color": "pink",
-            "suspect": true,
-            "position": 9,
-            "power": false
-        },
-        {
-            "color": "red",
-            "suspect": false,
-            "position": 4,
-            "power": false
-        },
-        {
-            "color": "blue",
-            "suspect": true,
-            "position": 6,
-            "power": false
-        },
-        {
-            "color": "white",
-            "suspect": false,
-            "position": 9,
-            "power": false
-        },
-        {
-            "color": "brown",
-            "suspect": false,
-            "position": 6,
-            "power": false
-        },
-        {
-            "color": "grey",
-            "suspect": false,
-            "position": 3,
-            "power": true
-        },
-        {
-            "color": "purple",
-            "suspect": false,
-            "position": 0,
-            "power": false
-        }
-    ],
-    "character_cards": [
-        {
-            "color": "brown",
-            "suspect": false,
-            "position": 6,
-            "power": false
-        },
-        {
-            "color": "blue",
-            "suspect": true,
-            "position": 6,
-            "power": false
-        },
-        {
-            "color": "red",
-            "suspect": false,
-            "position": 4,
-            "power": false
-        },
-        {
-            "color": "black",
-            "suspect": false,
-            "position": 9,
-            "power": false
-        },
-        {
-            "color": "purple",
-            "suspect": false,
-            "position": 0,
-            "power": false
-        },
-        {
-            "color": "pink",
-            "suspect": true,
-            "position": 9,
-            "power": false
-        },
-        {
-            "color": "grey",
-            "suspect": false,
-            "position": 3,
-            "power": true
-        },
-        {
-            "color": "white",
-            "suspect": false,
-            "position": 9,
-            "power": false
-        }
-    ],
-    "active character_cards": [
-        {
-            "color": "brown",
-            "suspect": false,
-            "position": 6,
-            "power": false
-        },
-        {
-            "color": "blue",
-            "suspect": true,
-            "position": 6,
-            "power": false
-        },
-        {
-            "color": "red",
-            "suspect": false,
-            "position": 4,
-            "power": false
-        },
-        {
-            "color": "black",
-            "suspect": false,
-            "position": 9,
-            "power": false
-        }
-    ]
-}
-13:15:22 :: INFO :: question : select character
-13:15:22 :: INFO :: answer : brown-6-clean
-13:15:22 :: INFO :: question : activate brown power
-13:15:22 :: INFO :: answer  : yes
-13:15:22 :: INFO :: brown power activated
-13:15:22 :: INFO :: question : brown character power
-13:15:22 :: INFO :: answer : blue-6-suspect
-13:15:22 :: INFO :: question : select position
-13:15:22 :: INFO :: answer : 7
-13:15:22 :: INFO :: new position : 7
-13:15:22 :: INFO :: --
-fantom plays
---
-13:15:22 :: DEBUG :: {
-    "position_carlotta": 13,
-    "exit": 22,
-    "num_tour": 3,
-    "shadow": 8,
-    "blocked": [
-        4,
-        8
-    ],
-    "characters": [
-        {
-            "color": "black",
-            "suspect": false,
-            "position": 9,
-            "power": false
-        },
-        {
-            "color": "pink",
-            "suspect": true,
-            "position": 9,
-            "power": false
-        },
-        {
-            "color": "red",
-            "suspect": false,
-            "position": 4,
-            "power": false
-        },
-        {
-            "color": "blue",
-            "suspect": true,
-            "position": 7,
-            "power": false
-        },
-        {
-            "color": "white",
-            "suspect": false,
-            "position": 9,
-            "power": false
-        },
-        {
-            "color": "brown",
-            "suspect": false,
-            "position": 7,
-            "power": true
-        },
-        {
-            "color": "grey",
-            "suspect": false,
-            "position": 3,
-            "power": true
-        },
-        {
-            "color": "purple",
-            "suspect": false,
-            "position": 0,
-            "power": false
-        }
-    ],
-    "character_cards": [
-        {
-            "color": "brown",
-            "suspect": false,
-            "position": 7,
-            "power": true
-        },
-        {
-            "color": "blue",
-            "suspect": true,
-            "position": 7,
-            "power": false
-        },
-        {
-            "color": "red",
-            "suspect": false,
-            "position": 4,
-            "power": false
-        },
-        {
-            "color": "black",
-            "suspect": false,
-            "position": 9,
-            "power": false
-        },
-        {
-            "color": "purple",
-            "suspect": false,
-            "position": 0,
-            "power": false
-        },
-        {
-            "color": "pink",
-            "suspect": true,
-            "position": 9,
-            "power": false
-        },
-        {
-            "color": "grey",
-            "suspect": false,
-            "position": 3,
-            "power": true
-        },
-        {
-            "color": "white",
-            "suspect": false,
-            "position": 9,
-            "power": false
-        }
-    ],
-    "active character_cards": [
-        {
-            "color": "blue",
-            "suspect": true,
-            "position": 7,
-            "power": false
-        },
-        {
-            "color": "red",
-            "suspect": false,
-            "position": 4,
-            "power": false
-        },
-        {
-            "color": "black",
-            "suspect": false,
-            "position": 9,
-            "power": false
-        }
-    ]
-}
-13:15:22 :: INFO :: question : select character
-13:15:22 :: INFO :: answer : blue-7-suspect
-13:15:22 :: INFO :: question : select position
-13:15:22 :: INFO :: answer : 3
-13:15:22 :: INFO :: new position : 3
-13:15:22 :: INFO :: blue power activated
-13:15:22 :: INFO :: question : blue character power exit
-13:15:22 :: INFO :: answer : {0, 4}
-13:15:22 :: INFO :: --
-fantom plays
---
-13:15:22 :: DEBUG :: {
-    "position_carlotta": 13,
-    "exit": 22,
-    "num_tour": 3,
-    "shadow": 8,
+    "shadow": 3,
     "blocked": [
         0,
-        4
+        1
     ],
     "characters": [
         {
+            "color": "white",
+            "suspect": false,
+            "position": 2,
+            "power": false
+        },
+        {
             "color": "black",
             "suspect": false,
-            "position": 9,
-            "power": false
-        },
-        {
-            "color": "pink",
-            "suspect": true,
-            "position": 9,
-            "power": false
-        },
-        {
-            "color": "red",
-            "suspect": false,
-            "position": 4,
+            "position": 0,
             "power": false
         },
         {
             "color": "blue",
-            "suspect": true,
-            "position": 3,
-            "power": true
-        },
-        {
-            "color": "white",
             "suspect": false,
-            "position": 9,
+            "position": 7,
             "power": false
         },
         {
-            "color": "brown",
-            "suspect": false,
-            "position": 7,
-            "power": true
+            "color": "purple",
+            "suspect": true,
+            "position": 8,
+            "power": false
         },
         {
             "color": "grey",
             "suspect": false,
-            "position": 3,
+            "position": 9,
             "power": true
         },
         {
-            "color": "purple",
+            "color": "brown",
             "suspect": false,
-            "position": 0,
+            "position": 5,
+            "power": true
+        },
+        {
+            "color": "pink",
+            "suspect": false,
+            "position": 1,
+            "power": false
+        },
+        {
+            "color": "red",
+            "suspect": true,
+            "position": 4,
             "power": false
         }
     ],
     "character_cards": [
         {
-            "color": "brown",
-            "suspect": false,
-            "position": 7,
-            "power": true
-        },
-        {
-            "color": "blue",
-            "suspect": true,
-            "position": 3,
-            "power": true
-        },
-        {
             "color": "red",
-            "suspect": false,
+            "suspect": true,
             "position": 4,
             "power": false
         },
         {
-            "color": "black",
-            "suspect": false,
-            "position": 9,
+            "color": "purple",
+            "suspect": true,
+            "position": 8,
             "power": false
         },
         {
-            "color": "purple",
+            "color": "pink",
+            "suspect": false,
+            "position": 1,
+            "power": false
+        },
+        {
+            "color": "blue",
+            "suspect": false,
+            "position": 7,
+            "power": false
+        },
+        {
+            "color": "black",
             "suspect": false,
             "position": 0,
             "power": false
         },
         {
-            "color": "pink",
-            "suspect": true,
-            "position": 9,
-            "power": false
-        },
-        {
             "color": "grey",
             "suspect": false,
-            "position": 3,
+            "position": 9,
             "power": true
         },
         {
             "color": "white",
             "suspect": false,
-            "position": 9,
+            "position": 2,
             "power": false
+        },
+        {
+            "color": "brown",
+            "suspect": false,
+            "position": 5,
+            "power": true
         }
     ],
     "active character_cards": [
         {
             "color": "red",
-            "suspect": false,
+            "suspect": true,
             "position": 4,
+            "power": false
+        },
+        {
+            "color": "purple",
+            "suspect": true,
+            "position": 8,
+            "power": false
+        },
+        {
+            "color": "pink",
+            "suspect": false,
+            "position": 1,
+            "power": false
+        },
+        {
+            "color": "blue",
+            "suspect": false,
+            "position": 7,
+            "power": false
+        }
+    ]
+}
+20:14:14 :: INFO :: question : select character
+20:14:14 :: INFO :: answer : pink-1-clean
+20:14:14 :: INFO :: question : select position
+20:14:14 :: INFO :: answer : 7
+20:14:14 :: INFO :: new position : 7
+20:14:14 :: INFO :: --
+fantom plays
+--
+20:14:14 :: DEBUG :: {
+    "position_carlotta": 10,
+    "exit": 22,
+    "num_tour": 3,
+    "shadow": 3,
+    "blocked": [
+        0,
+        1
+    ],
+    "characters": [
+        {
+            "color": "white",
+            "suspect": false,
+            "position": 2,
             "power": false
         },
         {
             "color": "black",
             "suspect": false,
+            "position": 0,
+            "power": false
+        },
+        {
+            "color": "blue",
+            "suspect": false,
+            "position": 7,
+            "power": false
+        },
+        {
+            "color": "purple",
+            "suspect": true,
+            "position": 8,
+            "power": false
+        },
+        {
+            "color": "grey",
+            "suspect": false,
             "position": 9,
+            "power": true
+        },
+        {
+            "color": "brown",
+            "suspect": false,
+            "position": 5,
+            "power": true
+        },
+        {
+            "color": "pink",
+            "suspect": false,
+            "position": 7,
+            "power": false
+        },
+        {
+            "color": "red",
+            "suspect": true,
+            "position": 4,
+            "power": false
+        }
+    ],
+    "character_cards": [
+        {
+            "color": "red",
+            "suspect": true,
+            "position": 4,
+            "power": false
+        },
+        {
+            "color": "purple",
+            "suspect": true,
+            "position": 8,
+            "power": false
+        },
+        {
+            "color": "pink",
+            "suspect": false,
+            "position": 7,
+            "power": false
+        },
+        {
+            "color": "blue",
+            "suspect": false,
+            "position": 7,
+            "power": false
+        },
+        {
+            "color": "black",
+            "suspect": false,
+            "position": 0,
+            "power": false
+        },
+        {
+            "color": "grey",
+            "suspect": false,
+            "position": 9,
+            "power": true
+        },
+        {
+            "color": "white",
+            "suspect": false,
+            "position": 2,
+            "power": false
+        },
+        {
+            "color": "brown",
+            "suspect": false,
+            "position": 5,
+            "power": true
+        }
+    ],
+    "active character_cards": [
+        {
+            "color": "red",
+            "suspect": true,
+            "position": 4,
+            "power": false
+        },
+        {
+            "color": "purple",
+            "suspect": true,
+            "position": 8,
+            "power": false
+        },
+        {
+            "color": "blue",
+            "suspect": false,
+            "position": 7,
             "power": false
         }
     ]
 }
-13:15:22 :: INFO :: question : select character
-13:15:22 :: INFO :: answer : black-9-clean
-13:15:22 :: INFO :: question : select position
-13:15:22 :: INFO :: answer : 5
-13:15:22 :: INFO :: new position : 5
-13:15:22 :: INFO :: question : activate black power
-13:15:22 :: INFO :: answer  : yes
-13:15:22 :: INFO :: black power activated
-13:15:22 :: INFO :: new position : red-5-clean
-13:15:22 :: INFO :: --
+20:14:14 :: INFO :: question : select character
+20:14:14 :: INFO :: answer : red-4-suspect
+20:14:14 :: INFO :: question : select position
+20:14:14 :: INFO :: answer : 0
+20:14:14 :: INFO :: new position : 0
+20:14:14 :: INFO :: red power activated
+20:14:14 :: INFO :: fantom was drawn
+20:14:14 :: INFO :: --
+fantom plays
+--
+20:14:14 :: DEBUG :: {
+    "position_carlotta": 11,
+    "exit": 22,
+    "num_tour": 3,
+    "shadow": 3,
+    "blocked": [
+        0,
+        1
+    ],
+    "characters": [
+        {
+            "color": "white",
+            "suspect": false,
+            "position": 2,
+            "power": false
+        },
+        {
+            "color": "black",
+            "suspect": false,
+            "position": 0,
+            "power": false
+        },
+        {
+            "color": "blue",
+            "suspect": false,
+            "position": 7,
+            "power": false
+        },
+        {
+            "color": "purple",
+            "suspect": true,
+            "position": 8,
+            "power": false
+        },
+        {
+            "color": "grey",
+            "suspect": false,
+            "position": 9,
+            "power": true
+        },
+        {
+            "color": "brown",
+            "suspect": false,
+            "position": 5,
+            "power": true
+        },
+        {
+            "color": "pink",
+            "suspect": false,
+            "position": 7,
+            "power": false
+        },
+        {
+            "color": "red",
+            "suspect": true,
+            "position": 0,
+            "power": true
+        }
+    ],
+    "character_cards": [
+        {
+            "color": "red",
+            "suspect": true,
+            "position": 0,
+            "power": true
+        },
+        {
+            "color": "purple",
+            "suspect": true,
+            "position": 8,
+            "power": false
+        },
+        {
+            "color": "pink",
+            "suspect": false,
+            "position": 7,
+            "power": false
+        },
+        {
+            "color": "blue",
+            "suspect": false,
+            "position": 7,
+            "power": false
+        },
+        {
+            "color": "black",
+            "suspect": false,
+            "position": 0,
+            "power": false
+        },
+        {
+            "color": "grey",
+            "suspect": false,
+            "position": 9,
+            "power": true
+        },
+        {
+            "color": "white",
+            "suspect": false,
+            "position": 2,
+            "power": false
+        },
+        {
+            "color": "brown",
+            "suspect": false,
+            "position": 5,
+            "power": true
+        }
+    ],
+    "active character_cards": [
+        {
+            "color": "purple",
+            "suspect": true,
+            "position": 8,
+            "power": false
+        },
+        {
+            "color": "blue",
+            "suspect": false,
+            "position": 7,
+            "power": false
+        }
+    ]
+}
+20:14:14 :: INFO :: question : select character
+20:14:14 :: INFO :: answer : purple-8-suspect
+20:14:14 :: INFO :: question : activate purple power
+20:14:14 :: INFO :: answer  : no
+20:14:14 :: INFO :: question : select position
+20:14:14 :: INFO :: answer : 4
+20:14:14 :: INFO :: new position : 4
+20:14:14 :: INFO :: --
 inspector plays
 --
-13:15:22 :: DEBUG :: {
-    "position_carlotta": 13,
+20:14:14 :: DEBUG :: {
+    "position_carlotta": 11,
     "exit": 22,
     "num_tour": 3,
-    "shadow": 8,
+    "shadow": 3,
     "blocked": [
         0,
-        4
+        1
     ],
     "characters": [
         {
+            "color": "white",
+            "suspect": false,
+            "position": 2,
+            "power": false
+        },
+        {
             "color": "black",
+            "suspect": false,
+            "position": 0,
+            "power": false
+        },
+        {
+            "color": "blue",
+            "suspect": false,
+            "position": 7,
+            "power": false
+        },
+        {
+            "color": "purple",
+            "suspect": true,
+            "position": 4,
+            "power": false
+        },
+        {
+            "color": "grey",
+            "suspect": false,
+            "position": 9,
+            "power": true
+        },
+        {
+            "color": "brown",
             "suspect": false,
             "position": 5,
             "power": true
         },
         {
             "color": "pink",
-            "suspect": true,
-            "position": 9,
+            "suspect": false,
+            "position": 7,
             "power": false
         },
         {
             "color": "red",
-            "suspect": false,
-            "position": 5,
-            "power": false
-        },
-        {
-            "color": "blue",
             "suspect": true,
-            "position": 3,
-            "power": true
-        },
-        {
-            "color": "white",
-            "suspect": false,
-            "position": 9,
-            "power": false
-        },
-        {
-            "color": "brown",
-            "suspect": false,
-            "position": 7,
-            "power": true
-        },
-        {
-            "color": "grey",
-            "suspect": false,
-            "position": 3,
-            "power": true
-        },
-        {
-            "color": "purple",
-            "suspect": false,
             "position": 0,
-            "power": false
+            "power": true
         }
     ],
     "character_cards": [
         {
-            "color": "brown",
+            "color": "red",
+            "suspect": true,
+            "position": 0,
+            "power": true
+        },
+        {
+            "color": "purple",
+            "suspect": true,
+            "position": 4,
+            "power": false
+        },
+        {
+            "color": "pink",
             "suspect": false,
             "position": 7,
-            "power": true
+            "power": false
         },
         {
             "color": "blue",
-            "suspect": true,
-            "position": 3,
-            "power": true
-        },
-        {
-            "color": "red",
             "suspect": false,
-            "position": 5,
+            "position": 7,
             "power": false
         },
         {
             "color": "black",
             "suspect": false,
-            "position": 5,
-            "power": true
-        },
-        {
-            "color": "purple",
-            "suspect": false,
             "position": 0,
-            "power": false
-        },
-        {
-            "color": "pink",
-            "suspect": true,
-            "position": 9,
             "power": false
         },
         {
             "color": "grey",
             "suspect": false,
-            "position": 3,
+            "position": 9,
             "power": true
         },
         {
             "color": "white",
             "suspect": false,
-            "position": 9,
+            "position": 2,
             "power": false
+        },
+        {
+            "color": "brown",
+            "suspect": false,
+            "position": 5,
+            "power": true
         }
     ],
     "active character_cards": [
         {
-            "color": "red",
+            "color": "blue",
             "suspect": false,
-            "position": 5,
+            "position": 7,
             "power": false
         }
     ]
 }
-13:15:22 :: INFO :: question : select character
-13:15:22 :: INFO :: answer : red-5-clean
-13:15:22 :: INFO :: question : select position
-13:15:22 :: INFO :: answer : 4
-13:15:22 :: INFO :: new position : 4
-13:15:22 :: INFO :: red power activated
-13:15:22 :: INFO :: fantom was drawn
-13:15:22 :: INFO :: the fantom does not scream.
-13:15:22 :: INFO :: 
-------------------
-13:15:22 :: INFO :: 
-black-5-cleanTour: 4,
-Position Carlotta / exit: 14/22,
-Shadow: 8,
-blocked: (0, 4)
-pink-9-suspectTour: 4,
-Position Carlotta / exit: 14/22,
-Shadow: 8,
-blocked: (0, 4)
-red-4-cleanTour: 4,
-Position Carlotta / exit: 14/22,
-Shadow: 8,
-blocked: (0, 4)
-blue-3-suspectTour: 4,
-Position Carlotta / exit: 14/22,
-Shadow: 8,
-blocked: (0, 4)
-white-9-cleanTour: 4,
-Position Carlotta / exit: 14/22,
-Shadow: 8,
-blocked: (0, 4)
-brown-7-cleanTour: 4,
-Position Carlotta / exit: 14/22,
-Shadow: 8,
-blocked: (0, 4)
-grey-3-cleanTour: 4,
-Position Carlotta / exit: 14/22,
-Shadow: 8,
-blocked: (0, 4)
-purple-0-clean
-13:15:22 :: DEBUG :: {
-    "position_carlotta": 14,
-    "exit": 22,
-    "num_tour": 4,
-    "shadow": 8,
-    "blocked": [
-        0,
-        4
-    ],
-    "characters": [
-        {
-            "color": "black",
-            "suspect": false,
-            "position": 5,
-            "power": true
-        },
-        {
-            "color": "pink",
-            "suspect": true,
-            "position": 9,
-            "power": false
-        },
-        {
-            "color": "red",
-            "suspect": false,
-            "position": 4,
-            "power": true
-        },
-        {
-            "color": "blue",
-            "suspect": true,
-            "position": 3,
-            "power": true
-        },
-        {
-            "color": "white",
-            "suspect": false,
-            "position": 9,
-            "power": false
-        },
-        {
-            "color": "brown",
-            "suspect": false,
-            "position": 7,
-            "power": true
-        },
-        {
-            "color": "grey",
-            "suspect": false,
-            "position": 3,
-            "power": true
-        },
-        {
-            "color": "purple",
-            "suspect": false,
-            "position": 0,
-            "power": false
-        }
-    ],
-    "character_cards": [
-        {
-            "color": "brown",
-            "suspect": false,
-            "position": 7,
-            "power": true
-        },
-        {
-            "color": "blue",
-            "suspect": true,
-            "position": 3,
-            "power": true
-        },
-        {
-            "color": "red",
-            "suspect": false,
-            "position": 4,
-            "power": true
-        },
-        {
-            "color": "black",
-            "suspect": false,
-            "position": 5,
-            "power": true
-        },
-        {
-            "color": "purple",
-            "suspect": false,
-            "position": 0,
-            "power": false
-        },
-        {
-            "color": "pink",
-            "suspect": true,
-            "position": 9,
-            "power": false
-        },
-        {
-            "color": "grey",
-            "suspect": false,
-            "position": 3,
-            "power": true
-        },
-        {
-            "color": "white",
-            "suspect": false,
-            "position": 9,
-            "power": false
-        }
-    ],
-    "active character_cards": []
-}
-13:15:22 :: INFO :: --
-fantom plays
---
-13:15:22 :: DEBUG :: {
-    "position_carlotta": 14,
-    "exit": 22,
-    "num_tour": 4,
-    "shadow": 8,
-    "blocked": [
-        0,
-        4
-    ],
-    "characters": [
-        {
-            "color": "black",
-            "suspect": false,
-            "position": 5,
-            "power": true
-        },
-        {
-            "color": "pink",
-            "suspect": true,
-            "position": 9,
-            "power": false
-        },
-        {
-            "color": "red",
-            "suspect": false,
-            "position": 4,
-            "power": true
-        },
-        {
-            "color": "blue",
-            "suspect": true,
-            "position": 3,
-            "power": true
-        },
-        {
-            "color": "white",
-            "suspect": false,
-            "position": 9,
-            "power": false
-        },
-        {
-            "color": "brown",
-            "suspect": false,
-            "position": 7,
-            "power": true
-        },
-        {
-            "color": "grey",
-            "suspect": false,
-            "position": 3,
-            "power": false
-        },
-        {
-            "color": "purple",
-            "suspect": false,
-            "position": 0,
-            "power": false
-        }
-    ],
-    "character_cards": [
-        {
-            "color": "brown",
-            "suspect": false,
-            "position": 7,
-            "power": true
-        },
-        {
-            "color": "blue",
-            "suspect": true,
-            "position": 3,
-            "power": true
-        },
-        {
-            "color": "red",
-            "suspect": false,
-            "position": 4,
-            "power": true
-        },
-        {
-            "color": "black",
-            "suspect": false,
-            "position": 5,
-            "power": true
-        },
-        {
-            "color": "purple",
-            "suspect": false,
-            "position": 0,
-            "power": false
-        },
-        {
-            "color": "pink",
-            "suspect": true,
-            "position": 9,
-            "power": false
-        },
-        {
-            "color": "grey",
-            "suspect": false,
-            "position": 3,
-            "power": false
-        },
-        {
-            "color": "white",
-            "suspect": false,
-            "position": 9,
-            "power": false
-        }
-    ],
-    "active character_cards": [
-        {
-            "color": "purple",
-            "suspect": false,
-            "position": 0,
-            "power": false
-        },
-        {
-            "color": "pink",
-            "suspect": true,
-            "position": 9,
-            "power": false
-        },
-        {
-            "color": "grey",
-            "suspect": false,
-            "position": 3,
-            "power": false
-        },
-        {
-            "color": "white",
-            "suspect": false,
-            "position": 9,
-            "power": false
-        }
-    ]
-}
-13:15:22 :: INFO :: question : select character
-13:15:22 :: INFO :: answer : purple-0-clean
-13:15:22 :: INFO :: question : activate purple power
-13:15:22 :: INFO :: answer  : yes
-13:15:22 :: INFO :: purple power activated
-13:15:22 :: INFO :: question : purple character power
-13:15:22 :: INFO :: answer : black-5-clean
-13:15:22 :: INFO :: new position : purple-5-clean
-13:15:22 :: INFO :: new position : black-0-clean
-13:15:22 :: INFO :: --
-inspector plays
---
-13:15:22 :: DEBUG :: {
-    "position_carlotta": 14,
-    "exit": 22,
-    "num_tour": 4,
-    "shadow": 8,
-    "blocked": [
-        0,
-        4
-    ],
-    "characters": [
-        {
-            "color": "black",
-            "suspect": false,
-            "position": 0,
-            "power": true
-        },
-        {
-            "color": "pink",
-            "suspect": true,
-            "position": 9,
-            "power": false
-        },
-        {
-            "color": "red",
-            "suspect": false,
-            "position": 4,
-            "power": true
-        },
-        {
-            "color": "blue",
-            "suspect": true,
-            "position": 3,
-            "power": true
-        },
-        {
-            "color": "white",
-            "suspect": false,
-            "position": 9,
-            "power": false
-        },
-        {
-            "color": "brown",
-            "suspect": false,
-            "position": 7,
-            "power": true
-        },
-        {
-            "color": "grey",
-            "suspect": false,
-            "position": 3,
-            "power": false
-        },
-        {
-            "color": "purple",
-            "suspect": false,
-            "position": 5,
-            "power": true
-        }
-    ],
-    "character_cards": [
-        {
-            "color": "brown",
-            "suspect": false,
-            "position": 7,
-            "power": true
-        },
-        {
-            "color": "blue",
-            "suspect": true,
-            "position": 3,
-            "power": true
-        },
-        {
-            "color": "red",
-            "suspect": false,
-            "position": 4,
-            "power": true
-        },
-        {
-            "color": "black",
-            "suspect": false,
-            "position": 0,
-            "power": true
-        },
-        {
-            "color": "purple",
-            "suspect": false,
-            "position": 5,
-            "power": true
-        },
-        {
-            "color": "pink",
-            "suspect": true,
-            "position": 9,
-            "power": false
-        },
-        {
-            "color": "grey",
-            "suspect": false,
-            "position": 3,
-            "power": false
-        },
-        {
-            "color": "white",
-            "suspect": false,
-            "position": 9,
-            "power": false
-        }
-    ],
-    "active character_cards": [
-        {
-            "color": "pink",
-            "suspect": true,
-            "position": 9,
-            "power": false
-        },
-        {
-            "color": "grey",
-            "suspect": false,
-            "position": 3,
-            "power": false
-        },
-        {
-            "color": "white",
-            "suspect": false,
-            "position": 9,
-            "power": false
-        }
-    ]
-}
-13:15:22 :: INFO :: question : select character
-13:15:22 :: INFO :: answer : pink-9-suspect
-13:15:22 :: INFO :: question : select position
-13:15:22 :: INFO :: answer : 1
-13:15:22 :: INFO :: new position : 1
-13:15:22 :: INFO :: --
-inspector plays
---
-13:15:22 :: DEBUG :: {
-    "position_carlotta": 14,
-    "exit": 22,
-    "num_tour": 4,
-    "shadow": 8,
-    "blocked": [
-        0,
-        4
-    ],
-    "characters": [
-        {
-            "color": "black",
-            "suspect": false,
-            "position": 0,
-            "power": true
-        },
-        {
-            "color": "pink",
-            "suspect": true,
-            "position": 1,
-            "power": false
-        },
-        {
-            "color": "red",
-            "suspect": false,
-            "position": 4,
-            "power": true
-        },
-        {
-            "color": "blue",
-            "suspect": true,
-            "position": 3,
-            "power": true
-        },
-        {
-            "color": "white",
-            "suspect": false,
-            "position": 9,
-            "power": false
-        },
-        {
-            "color": "brown",
-            "suspect": false,
-            "position": 7,
-            "power": true
-        },
-        {
-            "color": "grey",
-            "suspect": false,
-            "position": 3,
-            "power": false
-        },
-        {
-            "color": "purple",
-            "suspect": false,
-            "position": 5,
-            "power": true
-        }
-    ],
-    "character_cards": [
-        {
-            "color": "brown",
-            "suspect": false,
-            "position": 7,
-            "power": true
-        },
-        {
-            "color": "blue",
-            "suspect": true,
-            "position": 3,
-            "power": true
-        },
-        {
-            "color": "red",
-            "suspect": false,
-            "position": 4,
-            "power": true
-        },
-        {
-            "color": "black",
-            "suspect": false,
-            "position": 0,
-            "power": true
-        },
-        {
-            "color": "purple",
-            "suspect": false,
-            "position": 5,
-            "power": true
-        },
-        {
-            "color": "pink",
-            "suspect": true,
-            "position": 1,
-            "power": false
-        },
-        {
-            "color": "grey",
-            "suspect": false,
-            "position": 3,
-            "power": false
-        },
-        {
-            "color": "white",
-            "suspect": false,
-            "position": 9,
-            "power": false
-        }
-    ],
-    "active character_cards": [
-        {
-            "color": "grey",
-            "suspect": false,
-            "position": 3,
-            "power": false
-        },
-        {
-            "color": "white",
-            "suspect": false,
-            "position": 9,
-            "power": false
-        }
-    ]
-}
-13:15:22 :: INFO :: question : select character
-13:15:22 :: INFO :: answer : grey-3-clean
-13:15:22 :: INFO :: question : select position
-13:15:22 :: INFO :: answer : 1
-13:15:22 :: INFO :: new position : 1
-13:15:22 :: INFO :: grey power activated
-13:15:22 :: INFO :: question : grey character power
-13:15:22 :: INFO :: answer : 5
-13:15:22 :: INFO :: --
-fantom plays
---
-13:15:22 :: DEBUG :: {
-    "position_carlotta": 14,
-    "exit": 22,
-    "num_tour": 4,
-    "shadow": 5,
-    "blocked": [
-        0,
-        4
-    ],
-    "characters": [
-        {
-            "color": "black",
-            "suspect": false,
-            "position": 0,
-            "power": true
-        },
-        {
-            "color": "pink",
-            "suspect": true,
-            "position": 1,
-            "power": false
-        },
-        {
-            "color": "red",
-            "suspect": false,
-            "position": 4,
-            "power": true
-        },
-        {
-            "color": "blue",
-            "suspect": true,
-            "position": 3,
-            "power": true
-        },
-        {
-            "color": "white",
-            "suspect": false,
-            "position": 9,
-            "power": false
-        },
-        {
-            "color": "brown",
-            "suspect": false,
-            "position": 7,
-            "power": true
-        },
-        {
-            "color": "grey",
-            "suspect": false,
-            "position": 1,
-            "power": true
-        },
-        {
-            "color": "purple",
-            "suspect": false,
-            "position": 5,
-            "power": true
-        }
-    ],
-    "character_cards": [
-        {
-            "color": "brown",
-            "suspect": false,
-            "position": 7,
-            "power": true
-        },
-        {
-            "color": "blue",
-            "suspect": true,
-            "position": 3,
-            "power": true
-        },
-        {
-            "color": "red",
-            "suspect": false,
-            "position": 4,
-            "power": true
-        },
-        {
-            "color": "black",
-            "suspect": false,
-            "position": 0,
-            "power": true
-        },
-        {
-            "color": "purple",
-            "suspect": false,
-            "position": 5,
-            "power": true
-        },
-        {
-            "color": "pink",
-            "suspect": true,
-            "position": 1,
-            "power": false
-        },
-        {
-            "color": "grey",
-            "suspect": false,
-            "position": 1,
-            "power": true
-        },
-        {
-            "color": "white",
-            "suspect": false,
-            "position": 9,
-            "power": false
-        }
-    ],
-    "active character_cards": [
-        {
-            "color": "white",
-            "suspect": false,
-            "position": 9,
-            "power": false
-        }
-    ]
-}
-13:15:22 :: INFO :: question : select character
-13:15:22 :: INFO :: answer : white-9-clean
-13:15:22 :: INFO :: question : select position
-13:15:22 :: INFO :: answer : 7
-13:15:22 :: INFO :: new position : 7
-13:15:22 :: INFO :: question : activate white power
-13:15:22 :: INFO :: answer  : yes
-13:15:22 :: INFO :: white power activated
-13:15:22 :: INFO :: question : white character power move brown
-13:15:22 :: INFO :: answer : 9
-13:15:22 :: INFO :: new position : brown-9-clean
-13:15:22 :: INFO :: The fantom screams.
-13:15:22 :: INFO :: ----------
----- inspector wins : fantom is blue-3-suspect
-13:15:22 :: INFO :: ---- final position of Carlotta : 16
-13:15:22 :: INFO :: ---- exit : 22
-13:15:22 :: INFO :: ---- final score : 6
+20:14:14 :: INFO :: question : select character
+20:14:14 :: INFO :: answer : blue-7-clean
+20:14:14 :: INFO :: question : select position
+20:14:14 :: INFO :: answer : 2
+20:14:14 :: INFO :: new position : 2
+20:14:14 :: INFO :: blue power activated
+20:14:14 :: INFO :: question : blue character power exit
+20:14:14 :: INFO :: answer : {5, 6}
+20:14:14 :: INFO :: the fantom does not scream.
+20:14:14 :: INFO :: ----------
+---- inspector wins : fantom is red-0-suspect
+20:14:14 :: INFO :: ---- final position of Carlotta : 12
+20:14:14 :: INFO :: ---- exit : 22
+20:14:14 :: INFO :: ---- final score : 10
 ----------
